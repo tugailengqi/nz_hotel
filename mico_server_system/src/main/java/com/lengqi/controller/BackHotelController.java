@@ -20,6 +20,9 @@ import java.io.OutputStream;
 import java.util.List;
 import java.util.UUID;
 
+/**
+ * 后台酒店管理
+ */
 @Controller
 @RequestMapping("/back")
 public class BackHotelController {
