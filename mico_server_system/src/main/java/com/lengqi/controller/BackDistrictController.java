@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * 这个是后台区域管理
+ */
 @Controller
 @RequestMapping("/back")
 public class BackDistrictController {
