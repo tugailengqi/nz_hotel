@@ -1,0 +1,22 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: mirco-hotel
+  datasource:
+    url: jdbc:mysql://localhost:3306/nz1903?serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 192.168.148.133
+    username: guest
+    password: guest
+    virtual-host: /
+    port: 5672
+    publisher-confirms: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:20000/eureka

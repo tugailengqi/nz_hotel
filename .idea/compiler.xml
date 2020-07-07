@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mico_server_system" />
+        <module name="plartrom_feign" />
+        <module name="mirco_server" />
+        <module name="plartform_entity" />
+        <module name="plartform_commons" />
+        <module name="mirco_server_sso" />
+        <module name="mirco_server_search" />
+        <module name="mirco_server_hotel" />
+        <module name="plartform_erurka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mico_server_system" target="1.8" />
+      <module name="mirco_backstage" target="1.8" />
+      <module name="mirco_backstage (1)" target="1.8" />
+      <module name="mirco_server" target="1.8" />
+      <module name="mirco_server_hotel" target="1.8" />
+      <module name="mirco_server_search" target="1.8" />
+      <module name="mirco_server_sso" target="1.8" />
+      <module name="nz1903" target="1.8" />
+      <module name="plaetform_eureka" target="1.8" />
+      <module name="plartform_commons" target="1.8" />
+      <module name="plartform_entity" target="1.8" />
+      <module name="plartform_erurka" target="1.8" />
+      <module name="plartrom_feign" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mico_server_system" options="-parameters" />
+      <module name="mirco_backstage" options="-parameters" />
+      <module name="mirco_backstage (1)" options="-parameters" />
+      <module name="mirco_server" options="-parameters" />
+      <module name="mirco_server_hotel" options="-parameters" />
+      <module name="mirco_server_search" options="-parameters" />
+      <module name="mirco_server_sso" options="-parameters" />
+      <module name="nz1903" options="-parameters" />
+      <module name="plaetform_eureka" options="-parameters" />
+      <module name="plartform_commons" options="-parameters" />
+      <module name="plartform_entity" options="-parameters" />
+      <module name="plartform_erurka" options="-parameters" />
+      <module name="plartrom_feign" options="-parameters" />
+    </option>
+  </component>
+</project>

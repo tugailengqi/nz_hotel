@@ -1,0 +1,28 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: mirco-city
+  datasource:
+    url: jdbc:mysql://localhost:3306/nz1903?serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 192.168.148.133
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual # 消息手动确认
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:20000/eureka
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  #表示将Mybatis执行的sql语句在控制台打印
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+

@@ -1,0 +1,16 @@
+server:
+  port: 20000
+spring:
+  application:
+    #配置微服务的名称，以后所有的微服务，都必须配置这个属性，不然注册中心的名字会变成unable
+    name: eureka-server
+#配置eureka的相关属性
+eureka:
+  client:
+    service-url:
+      #配置eureka的注册地址
+      #defaultZone没有提示，必须手写
+      defaultZone: http://eureka:20000/eureka
+    #当前的微服务就是注册中心，注册中心不能从注册中心抓取服务，所以该配置需要配置成false
+    fetch-registry: false
+    register-with-eureka: false

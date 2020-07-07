@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>酒店列表</h1>
+
+    <table border="1">
+        <tr>
+            <td>编号</td>
+            <td>名称</td>
+            <td>品牌</td>
+            <td>图片</td>
+            <td>价格</td>
+            <td>开业时间</td>
+            <td>操作</td>
+        </tr>
+        <tr th:each="hotel : ${hotels}">
+            <td th:text="${hotel.id}">编号</td>
+            <td th:text="${hotel.hotalName}">名称</td>
+            <td th:text="${hotel.brand}">品牌</td>
+            <td><img th:src="${hotel.hotalImage}" style="width: 140px; height: 90px"></td>
+            <td th:text="${#numbers.formatCurrency(hotel.price)}">价格</td>
+            <td th:text="${#dates.format(hotel.openTime, 'yyyy-MM-dd')}">开业时间</td>
+            <td>操作</td>
+        </tr>
+    </table>
+</body>
+</html>

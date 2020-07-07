@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mico_server_system/mico_server_system.iml" filepath="$PROJECT_DIR$/mico_server_system/mico_server_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mirco_server/mirco_server.iml" filepath="$PROJECT_DIR$/mirco_server/mirco_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mirco_server_hotel/mirco_server_hotel.iml" filepath="$PROJECT_DIR$/mirco_server_hotel/mirco_server_hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mirco_server_search/mirco_server_search.iml" filepath="$PROJECT_DIR$/mirco_server_search/mirco_server_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mirco_server_sso/mirco_server_sso.iml" filepath="$PROJECT_DIR$/mirco_server_sso/mirco_server_sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nz1903.iml" filepath="$PROJECT_DIR$/nz1903.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plartform_commons/plartform_commons.iml" filepath="$PROJECT_DIR$/plartform_commons/plartform_commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plartform_entity/plartform_entity.iml" filepath="$PROJECT_DIR$/plartform_entity/plartform_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plartform_erurka/plartform_erurka.iml" filepath="$PROJECT_DIR$/plartform_erurka/plartform_erurka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plartrom_feign/plartrom_feign.iml" filepath="$PROJECT_DIR$/plartrom_feign/plartrom_feign.iml" />
+    </modules>
+  </component>
+</project>
